@@ -20,13 +20,12 @@ http.createServer(function (req, res) {
             });
             return;
         }else{
-             mime(reqUrlType).then((res)=>{
-                res.writeHead(200, {"Content-Type": res+";charset=utf-8"});
-            })
-
+             var filetype = mime(reqUrlType);
+            res.writeHead(200, {"Content-Type": filetype+";charset=utf-8"});
+            res.write(data);
+            res.end();
         }
-        res.write(data);
-        res.end();
+
     });
 }).listen(292);
 
