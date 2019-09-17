@@ -5,7 +5,8 @@ http.createServer(function (require, response) {
    // console.log(require.url);
 
     if (require.url != '/favicon.ico'){
-        console.log(url.parse(require.url, true).query);
+
+        console.log(url.parse(require.url, true));
     }
     response.end();
 }).listen(8003);
