@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ejs</title>
+</head>
+<body>
+<h2>EJS模板</h2>
+<h3><%= msg %></h3>
+<ul>
+
+    <% for(var i = 0;i < list.length;i++){ %>
+    <li><%=list[i]%></li>
+    <% } %>
+
+</ul>
+<script>
+    console.log('<%= msg %>')
+    console.log('<%= list %>'.split(','))
+</script>
+</body>
+</html>
