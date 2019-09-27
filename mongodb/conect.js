@@ -83,10 +83,33 @@ app.get('delete', function (req, res) {
         db.collection('mariodata').deleteOne({username: delquery['username']}, function (err, data) {
             if (err) {
                 res.end('删除数据失败')
-            }else{
+            } else {
                 res.end('删除数据成功')
             }
         })
     });
 
+});
+/* 查询数据 */
+app.get('query',function(req,res){
+    MongoClient.connect(urls,function (err,db) {
+        if(err){
+            console.log('ERR',err);
+        }
+        var list =[];
+        var dataarr = db.collection('mariodata').find();
+        dataarr.each(function (err,doc) {
+            if(err){
+                console.log('ERR')
+            } else {
+                if(doc != null){
+                    list.push(doc)
+                }else{
+                    console.log('callback('+list+')');
+                    // res.end('callback('+list+')');
+                    res.end('callback(' + JSON.stringify(list) + ')');
+                }
+            }
+        })
+    })
 });
