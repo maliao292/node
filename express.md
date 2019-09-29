@@ -42,3 +42,5 @@
    > req.session.sessionname = 'string'
   5. 获取 
    > req.session.sessionname
+  6. 销毁
+   > req.session.destroy(funciton(err){}) 
