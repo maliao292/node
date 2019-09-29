@@ -15,7 +15,6 @@ app.use(bodyParser.json());
 /* 连接数据库 */
 let MongoClient = require('mongodb').MongoClient;
 let Dburl = 'mongodb://127.0.0.1:27017/z_pro';
-
 app.use(function (req,res,next) {
     next();
 });
