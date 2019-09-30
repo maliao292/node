@@ -44,3 +44,8 @@
    > req.session.sessionname
   6. 销毁
    > req.session.destroy(funciton(err){}) 
+   
+   
+   #### ejs 配置全局数据
+   > app.locals['str'] = 'val'
+   > 页面使用 <%= str%>
