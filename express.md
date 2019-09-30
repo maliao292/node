@@ -46,6 +46,12 @@
    > req.session.destroy(funciton(err){}) 
    
    
-   #### ejs 配置全局数据
+ #### ejs 配置全局数据
    > app.locals['str'] = 'val'
    > 页面使用 <%= str%>
+   
+   
+ #### md5-node 加密
+ 1. npm install md5-node --save
+ 2. require('md5-node')
+ 3. md5('123') // 加密
