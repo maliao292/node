@@ -55,3 +55,15 @@
  1. npm install md5-node --save
  2. require('md5-node')
  3. md5('123') // 加密
+
+ #### multipaty
+ 1. npm install multiparty --save
+ 2. var multiparty = require('multiparty')
+ 3. 上传的接口：var form = new multiparty.Form(); form.parse(req,function(err,fields,files){// 获取提交的书数据和图片})
+    1、form.uploadDir = 'upload'; // 上传文件保存地址
+     console.log(fields); // 表单数据
+            console.log(files); // 文件信息
+
+
+
+

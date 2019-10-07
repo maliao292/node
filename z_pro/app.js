@@ -1,16 +1,20 @@
 let express = require('express');
 let url = require('url');
 let app = new express();
+/* 导入封装的数据库连接方法 */
+var DB = require('./model/db.js');
+/* ejs */
 app.set('view engine', 'ejs');
 app.use(express.static('static'));
 /* MD5 */
 let md5 = require('md5-node');
-/*body-parser*/
+/*body-parser*/  // 不适合图片上传
 let bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-
+/* multiparty 图片上传模块*/
+let multiparty = require('multiparty');
 
 /* 中间件 express-session */
 let session = require('express-session');
@@ -57,49 +61,56 @@ app.get('/loginOut', function (req, res) {
 
 });
 app.post('/dologin', function (req, res) {
-    MongoClient.connect(Dburl, function (err, db) {
-        if (err) {
-            console.log('连接数据失败', err)
-        } else {
-// 方法二
-            let msg = req.body;
-            let {username,password} = msg;
+    let msg = req.body;
+    let {username,password} = msg;
+    DB.find('user',{username,password:md5(password)},function (data) {
+        if(data.length === 0){
+            res.redirect('/login')
+        }else{
+            req.session.userinfo = data[0];
             app.locals['username'] = username;  // 全局
-            let result = db.collection('user').find({username,password:md5(password)});
+            res.redirect('/product')
 
-            result.toArray(function (err,data) {  // 遍历数据的方法
-                db.close();
-                if(data.length === 0){
-                    //   res.send({msg:1})
-                    res.redirect('/login')
-                }else{
-                    req.session.userinfo = data[0];
-                    res.redirect('/product')
-
-                }
-            });
         }
-    })
-
+    });
 });
 // 商品
 app.get('/product', function (req, res) {
     // 连接数据库
     var list = [];
-    MongoClient.connect(Dburl,function (err,db) {
-       let result = db.collection('product').find();
-       result.toArray(function (err,data) {
-          if(err){
-              console.log('查询product数据失败')
-          }else{
-              console.log(data);
-              list = data;
-              res.render('product',{list});
-          }
-       });
-
+    
+    DB.find('product',{},function (data) {
+        list = data;
+        res.render('product',{list});
     });
+});
+// 生成随机ID
+var lastUuid = 0;
 
+function uuid() {
+    return (new Date()).getTime() + (lastUuid++) % 1000;
+}
+/* 新增商品 */
+app.post('/doProductAdd',function (req,res) {
+// 获取表单数据
+    let form = new multiparty.Form();
+    form.uploadDir = 'upload';
+    form.parse(req,function (err,fields,files) {
+        if(err){
+            console.log('添加商品：',err);
+            return
+        }
+        console.log(fields);
+        console.log(files);
+        let title = fields.title[0];
+        let price = fields.price[0];
+        let fee = fields.fee[0];
+        let description = fields.description[0];
+        let pid = uuid()
+        DB.insert('product',{title,price,fee,description,pid},function (data) {
+            console.log(data)
+        })
+    })
 });
 // 商品 新增
 app.get('/productadd', function (req, res) {
@@ -110,7 +121,7 @@ app.get('/productedit', function (req, res) {
     res.render('productedit');
 });
 // 商品 删除
-app.get('/productdelete', function (req, res) {
+app.get('/delete', function (req, res) {
     res.send('productdelete');
 });
 
