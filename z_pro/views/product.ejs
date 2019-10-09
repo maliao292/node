@@ -59,13 +59,13 @@
                     <% for(let i = 0;i < list.length;i++){ %>
                         <tr>
                             <td><%= i+1%></td>
-                            <td>图标</td>
+                            <td><img style="width:30px;height: 30px;" src="<%= list[i]['pic']%>" alt=""></td>
                             <td><%= list[i]['title']%></td>
                             <td><%= list[i]['price']%></td>
                             <td><%= list[i]['fee']%></td>
                             <td class="text-center">
-                                <span class="btn btn-primary">修改</span>
-                                <span class="btn btn-danger">删除</span>
+                                <a class="btn btn-primary" href="/productedit/<%= list[i]['pid']%>">修改</a>
+                                <a class="btn btn-danger" href="/productedit/<%= list[i]['pid']%>">删除</a>
                             </td>
                         </tr>
                     <% } %>

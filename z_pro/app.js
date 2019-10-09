@@ -6,6 +6,8 @@ var DB = require('./model/db.js');
 /* ejs */
 app.set('view engine', 'ejs');
 app.use(express.static('static'));
+app.use('/upload',express.static('upload'));
+
 /* MD5 */
 let md5 = require('md5-node');
 /*body-parser*/  // 不适合图片上传
@@ -58,7 +60,6 @@ app.get('/loginOut', function (req, res) {
             res.redirect('/login')
         }
     });
-
 });
 app.post('/dologin', function (req, res) {
     let msg = req.body;
@@ -88,7 +89,7 @@ app.get('/product', function (req, res) {
 var lastUuid = 0;
 
 function uuid() {
-    return (new Date()).getTime() + (lastUuid++) % 1000;
+    return ''+((new Date()).getTime() + (lastUuid++) % 1000);
 }
 /* 新增商品 */
 app.post('/doProductAdd',function (req,res) {
@@ -100,15 +101,16 @@ app.post('/doProductAdd',function (req,res) {
             console.log('添加商品：',err);
             return
         }
-        console.log(fields);
-        console.log(files);
+  /*      console.log(fields);
+        console.log(files);*/
         let title = fields.title[0];
         let price = fields.price[0];
         let fee = fields.fee[0];
         let description = fields.description[0];
-        let pid = uuid()
-        DB.insert('product',{title,price,fee,description,pid},function (data) {
-            console.log(data)
+        let pic = files.pic[0].path;
+        let pid = uuid();
+        DB.insert('product',{title,price,fee,description,pic,pid},function (data) {
+            res.redirect('/product');
         })
     })
 });
@@ -117,8 +119,14 @@ app.get('/productadd', function (req, res) {
     res.render('productadd');
 });
 // 商品 编辑
-app.get('/productedit', function (req, res) {
-    res.render('productedit');
+app.get('/productedit/:pid', function (req, res) {
+
+    let pid = req.params.pid;
+    DB.find('product',{ pid },function (data) {
+        console.log(data[0]);
+        res.render('productedit',{data:data[0]});
+    });
+
 });
 // 商品 删除
 app.get('/delete', function (req, res) {

@@ -1,6 +1,6 @@
 /* 连接数据库 */
 let MongoClient = require('mongodb').MongoClient;
-let Dburl = 'mongodb://127.0.0.1:27017/mario';
+let Dburl = 'mongodb://127.0.0.1:27017/z_pro';
 
 function _connectDb(callback) {
     MongoClient.connect(Dburl, function (err, db) {
