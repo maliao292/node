@@ -1,7 +1,7 @@
 /* 连接数据库 */
 let MongoClient = require('mongodb').MongoClient;
 let Dburl = 'mongodb://127.0.0.1:27017/z_pro';
-
+let ObjectId = require('mongodb').ObjectID;
 function _connectDb(callback) {
     MongoClient.connect(Dburl, function (err, db) {
         if (err) {
@@ -12,7 +12,7 @@ function _connectDb(callback) {
 
     })
 }
-
+exports.ObjectId = ObjectId;
 /* 查找数据 */
 exports.find = function (collectionname, json, callback) {
     _connectDb(function (err, db) {

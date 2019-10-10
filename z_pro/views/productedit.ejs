@@ -35,18 +35,19 @@
                 </div>
                 <div class="panel-body">
                     <div class="table-responsive input-form">
-                        <form action="/doAdd" method="post">
-                            <% data%>
+                        <form action="/doCom?pid=<%= data['pid']%>" enctype="multipart/form-data" method="post">
                             <ul>
                                 <li>  商品名称: <input type="text" name="title" value="<%= data['title']%>"/></li>
 
-                                <li>  商品图片: <input type="file" name="pic" value="<%= data['pic']%>"/></li>
+                                <li>  商品图片: <input type="file" name="pic" value=""/>
+                                    <img src="/<%= data['pic']%>" style='width: 30px;height: 30px;'>
+                                </li>
                                 <li>  商品价格: <input type="text" name="price" value="<%= data['price']%>"/></li>
                                 <li>  商品邮费: <input type="text" name="fee" value="<%= data['fee']%>"/></li>
 
                                 <li>
                                     商品描述:
-                                    <textarea name="description" id="" cols="60" rows="8" value="<%= data['description']%>"></textarea>
+                                    <textarea name="description" id="" cols="60" rows="8" value=""><%= data['description']%></textarea>
                                 </li>
 
                                 <li>
@@ -66,8 +67,8 @@
     </div>
 </div>
 <script>
-    let obj = JSON.stringify(<%= data%>)
-    console.log(typeof obj)
+    var uid = <%-JSON.stringify(data)%>
+    console.log(uid);
 </script>
 </body>
 </html>
