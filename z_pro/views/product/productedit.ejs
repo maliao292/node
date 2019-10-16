@@ -14,13 +14,13 @@
 <link rel="stylesheet" href="/css/basic.css">
 
 
-<%-include public/header%>
+<%-include ../public/header%>
 
 
 
 <div class="container-fluid">
     <div class="row">
-        <%- include public/sidebarLeft.ejs%>
+        <%- include ../public/sidebarLeft.ejs%>
         <div class="col-sm-10">
             <ol class="breadcrumb">
                 <li class="active">商品管理
@@ -35,7 +35,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="table-responsive input-form">
-                        <form action="/doCom?pid=<%= data['pid']%>" enctype="multipart/form-data" method="post">
+                        <form action="/product/doCom/<%= data['pid']%>" enctype="multipart/form-data" method="post">
                             <ul>
                                 <li>  商品名称: <input type="text" name="title" value="<%= data['title']%>"/></li>
 
