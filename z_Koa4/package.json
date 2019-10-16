@@ -1,0 +1,14 @@
+{
+  "name": "z_koa4",
+  "version": "1.0.0",
+  "description": "koa 联系",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.10.0"
+  }
+}
