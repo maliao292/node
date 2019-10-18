@@ -7,4 +7,4 @@
  
  ### koa-router
  * npm install koa-router -s
- * 
+ * let router = require('koa-router')();  // 引用和实例化路由

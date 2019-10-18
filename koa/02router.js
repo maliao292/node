@@ -12,6 +12,13 @@ router.get('/',async function(ctx){
 });
 
 
+/* 动态路由 */
+router.get('/new/:aid/:bid',async function(ctx){
+    // console.log(url.parse(ctx.request.url,true).query);
+    console.log(ctx.params);
+    ctx.body = '新闻';
+});
+
 app.use(router.routes())
 .use(router.allowedMethods());
 app.listen(8888);
