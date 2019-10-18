@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c22a6b-9ff4-456c-b805-0460877e1a0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/z_Koa4/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_Koa4/01router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_Koa4/02router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Koa4/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/z_Koa4/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Koa4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/z_Koa4/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Koa4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/z_Koa4/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,26 +24,64 @@
     <favorites_list name="node4" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_Koa4/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/z_Koa4/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z_Koa4/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="19" column="17" lean-forward="true" selection-end-line="19" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="01router.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z_Koa4/01router.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="02router.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/z_Koa4/02router.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="400">
+                  <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z_Koa4/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="275">
+                  <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="koa.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/koa.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="225">
+                    <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/http/01http.html" />
-        <option value="$PROJECT_DIR$/http/01http.js" />
         <option value="$PROJECT_DIR$/http/03commonJs.js" />
         <option value="$PROJECT_DIR$/http/config、.js" />
         <option value="$PROJECT_DIR$/http/config.js" />
@@ -122,7 +163,11 @@
         <option value="$PROJECT_DIR$/z_pro/routes/product/index.js" />
         <option value="$PROJECT_DIR$/z_pro/views/index/index.ejs" />
         <option value="$PROJECT_DIR$/z_pro/model/db.js" />
+        <option value="$PROJECT_DIR$/koa.md" />
         <option value="$PROJECT_DIR$/z_Koa4/app.js" />
+        <option value="$PROJECT_DIR$/z_Koa4/01router.js" />
+        <option value="$PROJECT_DIR$/z_Koa4/router.js" />
+        <option value="$PROJECT_DIR$/z_Koa4/02router.js" />
       </list>
     </option>
   </component>
@@ -177,6 +222,11 @@
               <item name="node_new" type="462c0819:PsiDirectoryNode" />
               <item name="z_Koa4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="node4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_new" type="462c0819:PsiDirectoryNode" />
+              <item name="z_pro" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,11 +246,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mario\DO\node_new\z_Koa4" />
       <recent name="E:\Mario\DO\node_new\z_pro\views\index" />
       <recent name="E:\Mario\DO\node_new\z_pro\views\public" />
       <recent name="E:\Mario\DO\node_new\z_pro\routes\product" />
       <recent name="E:\Mario\DO\node_new\z_pro\routes\index" />
-      <recent name="E:\Mario\DO\node_new\z_pro" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Mario\DO\node_new\z_pro\views\index" />
@@ -222,26 +272,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.db.js">
-    <configuration name="app_2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app_2.js" working-dir="$PROJECT_DIR$/z_pro" />
+  <component name="RunManager" selected="Node.js.02router.js">
+    <configuration name="01router.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/z_Koa4/01router.js" working-dir="$PROJECT_DIR$/z_Koa4" />
+    <configuration name="02router.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02router.js" working-dir="$PROJECT_DIR$/z_Koa4" />
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/z_Koa4" />
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/z_pro" />
     <configuration name="db.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="db.js" working-dir="$PROJECT_DIR$/z_pro/model" />
-    <configuration name="index.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/z_pro/routes/product" />
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/z_pro/routes/admin/index.js" working-dir="$PROJECT_DIR$/z_pro/routes/admin" />
     <list>
       <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.db.js" />
-      <item itemvalue="Node.js.index.js" />
-      <item itemvalue="Node.js.index.js (1)" />
-      <item itemvalue="Node.js.app_2.js" />
+      <item itemvalue="Node.js.app.js (1)" />
+      <item itemvalue="Node.js.01router.js" />
+      <item itemvalue="Node.js.02router.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.02router.js" />
+        <item itemvalue="Node.js.01router.js" />
+        <item itemvalue="Node.js.app.js (1)" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.db.js" />
-        <item itemvalue="Node.js.index.js (1)" />
-        <item itemvalue="Node.js.app_2.js" />
-        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +319,8 @@
       <workItem from="1570842317538" duration="13183000" />
       <workItem from="1571109394882" duration="974000" />
       <workItem from="1571189630045" duration="1340000" />
-      <workItem from="1571213014393" duration="843000" />
+      <workItem from="1571213014393" duration="7025000" />
+      <workItem from="1571364337609" duration="3970000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <created>1570612726905</created>
@@ -292,24 +343,31 @@
       <option name="project" value="LOCAL" />
       <updated>1571189751702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="koa">
+      <created>1571213939760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571213939760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112060000" />
+    <option name="totallyTimeSpent" value="122212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.13435195" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5036881" side_tool="true" weight="0.15975104" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50474185" side_tool="true" weight="0.52056277" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" visible="true" weight="0.49675325" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4963119" weight="0.12240664" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49525815" weight="0.071428575" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1421801" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46103895" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49789253" weight="0.23160173" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1421801" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,26 +377,25 @@
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="3" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.18257262" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.10800843" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1421801" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.29329005" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="3" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.46137106" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50105375" side_tool="true" visible="true" weight="0.29329005" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1421801" />
     </layout-to-restore>
   </component>
@@ -352,7 +409,8 @@
     <MESSAGE value="666" />
     <MESSAGE value="新增和修改数据" />
     <MESSAGE value="over" />
-    <option name="LAST_COMMIT_MESSAGE" value="over" />
+    <MESSAGE value="koa" />
+    <option name="LAST_COMMIT_MESSAGE" value="koa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -365,21 +423,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/http/02url.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/01http.html" />
-    <entry file="file://$PROJECT_DIR$/http/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http/node_modules/foo.js" />
     <entry file="file://$PROJECT_DIR$/http/node_modules/bar/index.js" />
     <entry file="file://$PROJECT_DIR$/http/node_modules/bar/package.json" />
@@ -549,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_pro/routes/admin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_pro/views/public/sidebarLeft.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -605,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_pro/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_pro/views/index/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
@@ -630,23 +659,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_Koa4/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="275">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/routes/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_Koa4/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="475">
+          <caret line="19" column="17" lean-forward="true" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_Koa4/01router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_Koa4/02router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
