@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c22a6b-9ff4-456c-b805-0460877e1a0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/koa.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_Koa4/01router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_Koa4/02router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_pro/connectDbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_pro/setVue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_Koa4/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/z_Koa4/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_Koa4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/z_Koa4/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_Koa4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/z_Koa4/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,64 +21,44 @@
     <favorites_list name="node4" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/z_Koa4/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="475">
-                  <caret line="19" column="17" lean-forward="true" selection-end-line="19" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="01router.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/z_Koa4/01router.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="02router.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/z_Koa4/02router.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/z_Koa4/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="koa.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/koa.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="225">
-                    <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_pro/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connectDbs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_pro/connectDbs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setVue.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/z_pro/setVue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_pro/routes/admin/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,7 +82,11 @@
       <find>db</find>
       <find>mult</find>
       <find>uuid</find>
+      <find>Arr</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,11 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/http/03commonJs.js" />
-        <option value="$PROJECT_DIR$/http/config、.js" />
-        <option value="$PROJECT_DIR$/http/config.js" />
-        <option value="$PROJECT_DIR$/http/03_2tools.js" />
-        <option value="$PROJECT_DIR$/http/03_1commonJs.js" />
         <option value="$PROJECT_DIR$/http/node_moduls/foo.js" />
         <option value="$PROJECT_DIR$/http/node_moduls/bar/index.js" />
         <option value="$PROJECT_DIR$/http/03_3default.js" />
@@ -163,11 +139,16 @@
         <option value="$PROJECT_DIR$/z_pro/routes/product/index.js" />
         <option value="$PROJECT_DIR$/z_pro/views/index/index.ejs" />
         <option value="$PROJECT_DIR$/z_pro/model/db.js" />
-        <option value="$PROJECT_DIR$/koa.md" />
         <option value="$PROJECT_DIR$/z_Koa4/app.js" />
         <option value="$PROJECT_DIR$/z_Koa4/01router.js" />
         <option value="$PROJECT_DIR$/z_Koa4/router.js" />
         <option value="$PROJECT_DIR$/z_Koa4/02router.js" />
+        <option value="$PROJECT_DIR$/koa.md" />
+        <option value="$PROJECT_DIR$/koa/02router.js" />
+        <option value="$PROJECT_DIR$/z_pro/connectDbs.js" />
+        <option value="$PROJECT_DIR$/z_pro/views/vue/index.html" />
+        <option value="$PROJECT_DIR$/z_pro/views/vueread.js" />
+        <option value="$PROJECT_DIR$/z_pro/setVue.js" />
       </list>
     </option>
   </component>
@@ -185,13 +166,13 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/express_session/node_modules" />
-    <handled-path value="$PROJECT_DIR$/z_Koa4/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/node_modules" />
     <handled-path value="$PROJECT_DIR$/z_pro/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/express_session/package.json" />
-      <path value="$PROJECT_DIR$/z_Koa4/package.json" />
+      <path value="$PROJECT_DIR$/koa/package.json" />
       <path value="$PROJECT_DIR$/z_pro/package.json" />
     </packageJsonPaths>
   </component>
@@ -209,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +200,7 @@
             <path>
               <item name="node4" type="b2602c69:ProjectViewProjectNode" />
               <item name="node_new" type="462c0819:PsiDirectoryNode" />
-              <item name="z_Koa4" type="462c0819:PsiDirectoryNode" />
+              <item name="express" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node4" type="b2602c69:ProjectViewProjectNode" />
@@ -231,6 +211,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,19 +226,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Mario\DO\node_new\z_Koa4" />
-      <recent name="E:\Mario\DO\node_new\z_pro\views\index" />
-      <recent name="E:\Mario\DO\node_new\z_pro\views\public" />
-      <recent name="E:\Mario\DO\node_new\z_pro\routes\product" />
-      <recent name="E:\Mario\DO\node_new\z_pro\routes\index" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mario\DO\node_new\z_pro\views\vue\dist" />
       <recent name="E:\Mario\DO\node_new\z_pro\views\index" />
       <recent name="E:\Mario\DO\node_new\z_pro\routes\admin" />
       <recent name="E:\Mario\DO\node_new\z_pro\views\product" />
       <recent name="E:\Mario\DO\node_new\z_pro\views\admin" />
-      <recent name="E:\Mario\DO\node\fs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mario\DO\node_new\z_pro" />
+      <recent name="E:\Mario\DO\node_new\z_pro\views\vue" />
+      <recent name="E:\Mario\DO\node_new\z_Koa4" />
+      <recent name="E:\Mario\DO\node_new\z_pro\views\index" />
+      <recent name="E:\Mario\DO\node_new\z_pro\views\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,26 +253,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.02router.js">
-    <configuration name="01router.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/z_Koa4/01router.js" working-dir="$PROJECT_DIR$/z_Koa4" />
-    <configuration name="02router.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02router.js" working-dir="$PROJECT_DIR$/z_Koa4" />
-    <configuration name="app.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/z_Koa4" />
+  <component name="RunManager" selected="Node.js.setVue.js">
+    <configuration name="02router.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02router.js" working-dir="$PROJECT_DIR$/koa" />
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/z_pro" />
-    <configuration name="db.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="db.js" working-dir="$PROJECT_DIR$/z_pro/model" />
+    <configuration name="connectDbs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="connectDbs.js" working-dir="$PROJECT_DIR$/z_pro" />
+    <configuration name="setVue.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="setVue.js" working-dir="$PROJECT_DIR$/z_pro" />
+    <configuration name="vueread.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="vueread.js" working-dir="$PROJECT_DIR$/z_pro/views" />
     <list>
       <item itemvalue="Node.js.app.js" />
-      <item itemvalue="Node.js.db.js" />
-      <item itemvalue="Node.js.app.js (1)" />
-      <item itemvalue="Node.js.01router.js" />
-      <item itemvalue="Node.js.02router.js" />
+      <item itemvalue="Node.js.02router.js (1)" />
+      <item itemvalue="Node.js.connectDbs.js" />
+      <item itemvalue="Node.js.vueread.js" />
+      <item itemvalue="Node.js.setVue.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.02router.js" />
-        <item itemvalue="Node.js.01router.js" />
-        <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.setVue.js" />
+        <item itemvalue="Node.js.vueread.js" />
+        <item itemvalue="Node.js.connectDbs.js" />
         <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Node.js.db.js" />
+        <item itemvalue="Node.js.02router.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +302,10 @@
       <workItem from="1571189630045" duration="1340000" />
       <workItem from="1571213014393" duration="7025000" />
       <workItem from="1571364337609" duration="3970000" />
+      <workItem from="1571368336001" duration="1828000" />
+      <workItem from="1571390379800" duration="54000" />
+      <workItem from="1573179213358" duration="2437000" />
+      <workItem from="1573185479712" duration="6608000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <created>1570612726905</created>
@@ -350,22 +335,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571213939760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="koa">
+      <created>1571368379409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571368379409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="koa">
+      <created>1571390396716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571390396716</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122212000" />
+    <option name="totallyTimeSpent" value="133139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.13435195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.19546892" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50474185" side_tool="true" weight="0.52056277" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" visible="true" weight="0.49675325" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5052687" side_tool="true" weight="0.26948053" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49525815" weight="0.071428575" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4947313" visible="true" weight="0.31926408" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1421801" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49789253" weight="0.23160173" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1421801" />
@@ -377,6 +375,7 @@
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="3" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" weight="0.49675325" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,24 +418,10 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/http/node_modules/foo.js" />
-    <entry file="file://$PROJECT_DIR$/http/node_modules/bar/index.js" />
-    <entry file="file://$PROJECT_DIR$/http/node_modules/bar/package.json" />
-    <entry file="file://$PROJECT_DIR$/http/node_modules/bar2/package.json" />
-    <entry file="file://$PROJECT_DIR$/http/node_modules/bar2/index.js" />
-    <entry file="file://$PROJECT_DIR$/fs/style.css" />
-    <entry file="file://$PROJECT_DIR$/fs/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs/canvas/canvas.html" />
     <entry file="file://$PROJECT_DIR$/fs/html/jquery/63/64/upload/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -620,24 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_pro/views/admin/login.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_pro/views/product/productedit.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_pro/routes/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -648,69 +619,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_pro/app_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="142" column="9" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_pro/model/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/z_Koa4/package.json" />
+    <entry file="file://$PROJECT_DIR$/z_Koa4/app.js" />
+    <entry file="file://$PROJECT_DIR$/z_Koa4/01router.js" />
+    <entry file="file://$PROJECT_DIR$/z_Koa4/02router.js" />
     <entry file="file://$PROJECT_DIR$/koa.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
-            <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_Koa4/package.json">
+    <entry file="file://$PROJECT_DIR$/koa/02router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="550">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/views/admin/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/model/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/conect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/node_modules/mongodb/lib/cursor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="716" selection-start-line="716" selection-end-line="716" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongdb.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/app_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/views/vue/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret column="507" lean-forward="true" selection-start-column="507" selection-end-column="507" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/routes/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_pro/routes/admin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="325">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_pro/views/vueread.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_pro/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="200">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_Koa4/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="17" lean-forward="true" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_Koa4/01router.js">
+    <entry file="file://$PROJECT_DIR$/z_pro/connectDbs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_Koa4/02router.js">
+    <entry file="file://$PROJECT_DIR$/z_pro/setVue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
